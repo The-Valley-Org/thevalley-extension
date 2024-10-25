@@ -1,11 +1,11 @@
 import Main from "@/components/main";
-import HeaderNav from "@/components/header";
+import Hero from "@/components/hero";
 
 export default function Home() {
   return (
     <Main>
       <div className="flex flex-col justify-start">
-        <HeaderNav/>
+        <Hero/>
       </div>
     </Main>
   );
