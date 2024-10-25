@@ -34,7 +34,7 @@ export default HeaderNav
 function NavItem ({ iconSrc }: {iconSrc: string}) {
     return (
         <Link href="/">
-            <button className="flex justify-center items-center h-10 w-10 bg-lightGreen">
+            <button className="flex justify-center items-center h-10 w-10 bg-lightGreen rounded-md hover:bg-darkGreen transition-all duration-300 ease">
                 <Image
                 src={iconSrc}
                 alt="Navigation header icon"
