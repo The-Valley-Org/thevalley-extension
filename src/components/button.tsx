@@ -26,7 +26,7 @@ export default function Button({
   disabled,
 }: ButtonProps) {
   const mergedClasses = cn(
-    "md:font-semibold text-base flex items-center justify-center gap-2 h-[38px] md:h-[48px] rounded-[8px] px-2 md:px-4 py-2 md:py-3 transition duration-[.2s] disabled:opacity-50 disabled:cursor-not-allowed",
+    "font-semibold text-[12px] flex items-center justify-center gap-2 h-[38px] md:h-[48px] rounded-[8px] px-2 md:px-4 py-2 md:py-3 transition duration-[.2s] disabled:opacity-50 disabled:cursor-not-allowed",
     className
   );
   return (

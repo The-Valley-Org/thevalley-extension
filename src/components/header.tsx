@@ -12,7 +12,7 @@ const icons = [
 
 function HeaderNav() {
   return (
-    <header className="px-4 h-[72px] w-full max-w-[360px] bg-lightGreen flex justify-between items-center fixed top-0 left-0">
+    <header className="z-50 px-4 h-[72px] w-full max-w-[360px] bg-lightGreen flex justify-between items-center fixed top-0 left-0">
         <Logo/>
 
         <nav className="flex justify-start">
