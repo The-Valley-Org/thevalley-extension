@@ -1,14 +1,13 @@
-import React, { ReactNode } from 'react'
+import React, { ReactNode } from "react";
 
-function Main({ children, className }: {
-    children: ReactNode
-    className?: string
+function Main({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
 }) {
-  return (
-    <main className="max-w-[360px]">
-        {children}
-    </main>
-  )
+  return <main className="max-w-[360px] bg-background">{children}</main>;
 }
 
-export default Main
+export default Main;
